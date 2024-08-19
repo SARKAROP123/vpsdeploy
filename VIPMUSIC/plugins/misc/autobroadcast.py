@@ -9,19 +9,21 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else True
 
 
-MESSAGE = f"""**๏𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐮𝐬𝐢𝐜 𝐩𝐥𝐚𝐲𝐞𝐫 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐠𝐫𝐨𝐮𝐩𝐬 +𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐯𝐜.🔥
+MESSAGE = f"""**🥀𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐲 𝐀𝐥𝐥 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎙️
 
-🔥 𝐁𝐎𝐓-1 : [𝐑𝐀𝐃𝐇𝐀 𝐌𝐔𝐒𝐈𝐂](https://t.me/ll_RADHA_MUSICBOT)
-🔥 𝐁𝐎𝐓-2 : [𝐐𝐔𝐄𝐄𝐍 𝐌𝐔𝐒𝐈𝐂](https://t.me/QUEEN_MUSIC_ROBOT)
-🔥 𝐁𝐎𝐓-3 : [𝐒𝐓𝐀𝐑 𝐌𝐈𝐒𝐈𝐂](https://t.me/STAR_MUSICAL_BOT)
-🔥 𝐎𝐖𝐍𝐄𝐑: [𝐎𝐖𝐍𝐄𝐑](https://t.me/ll_SARKAR_BABY_HU_ll)
+𝐁𝐎𝐓-1 : @ll_RADHA_MUSICBOT
+𝐁𝐎𝐓-2 : @QUEEN_MUSIC_ROBOT
+𝐁𝐎𝐓-3 : @STAR_MUSICAL_BOT
+𝐁𝐎𝐓-4 : @KHUSHI_MUSIC76_BOT
+𝐁𝐎𝐓-5 : @ll_MAHAKAL_MUSIC_BOT
+𝐒𝐔𝐏𝐏𝐎𝐑𝐓:- @TG_NAME_STYLE
 
 ➲ 𝐁𝐎𝐓 :** @{app.username}"""
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("𓆩🔥𓆪𝐀𝐃𝐃 𝐌𝐄 𝐁𝐀𝐁𝐘𓆩🔥𓆪", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("𓆩❤️‍🔥𓆪Aᴅᴅ ᴍᴇ ɢʀᴏᴜᴘ𓆩❤️‍🔥𓆪", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
@@ -61,8 +63,8 @@ async def continuous_broadcast():
             except Exception as e:
                 pass
 
-        # Wait for 200 seconds before next broadcast
-        await asyncio.sleep(200)
+        # Wait for 1000 seconds before next broadcast
+        await asyncio.sleep(1000)
 
 # Start the continuous broadcast loop if AUTO_GCAST is True
 if AUTO_GCAST:  
